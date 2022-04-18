@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-<remote  name="github"
-           fetch="https://github.com/"
-           revision="android-12.0" />  
+<manifest> 
    
   <!-- m20lte dependencies -->
+           
+      <!-- Device Trees -->   
   <project path="device/samsung/m20lte" name="iamnabilzaman/android_device_samsung_m20lte" remote="github" />
   <project path="device/samsung/universal7904-common" name="iamnabilzaman/android_device_samsung_universal7904-common" remote="github" />
+       
+      <!-- Vendor Tree -->
   <project path="vendor/samsung" name="iamnabilzaman/proprietary_vendor_samsung" remote="github" />
+           
+      <!-- Kernel -->
   <project path="kernel/samsung/universal7904" name="iamnabilzaman/android_kernel_samsung_universal7904" remote="github" />
+           
+      <!-- Dependencies -->
   <project path="device/samsung_slsi/sepolicy" name="iamnabilzaman/android_device_samsung_slsi_sepolicy" remote="github" />
   <project path="hardware/samsung" name="iamnabilzaman/android_hardware_samsung" remote="github" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="iamnabilzaman/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" />
