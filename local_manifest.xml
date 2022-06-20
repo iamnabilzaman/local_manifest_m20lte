@@ -4,8 +4,8 @@
   <!-- m20lte dependencies -->
            
       <!-- Device Trees -->   
-  <project path="device/samsung/m20lte" name="iamnabilzaman/android_device_samsung_m20lte" remote="github" revision="xd" />
-  <project path="device/samsung/universal7904-common" name="iamnabilzaman/android_device_samsung_universal7904-common" remote="github" revision="android-12.1" />
+  <project path="device/samsung/m20lte" name="iamnabilzaman/android_device_samsung_m20lte" remote="github" revision="komodo" />
+  <project path="device/samsung/universal7904-common" name="iamnabilzaman/android_device_samsung_universal7904-common" remote="github" revision="komodo" />
        
       <!-- Vendor Tree -->
   <project path="vendor/samsung" name="iamnabilzaman/proprietary_vendor_samsung" remote="github" revision="lineage-19.1" />
